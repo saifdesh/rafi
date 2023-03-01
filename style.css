@@ -1,0 +1,187 @@
+.sec-1 {
+    margin-top: 20px;
+    width: 100%;
+    /* background: red; */
+}
+
+.profile {
+    display: flex;
+
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper ul {
+    list-style: none;
+    margin-top: 2%;
+}
+
+.wrapper ul li {
+    background: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    font-family: big john;
+}
+
+.wrapper ul li:hover {
+    background: crimson;
+}
+
+.wrapper ul ul {
+    display: none;
+}
+
+.wrapper ul li:hover>ul {
+    display: block;
+}
+
+.wrapper ul ul ul {
+    margin-left: 128px;
+    top: 2px;
+    position: absolute;
+}
+
+.intro {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.scroll {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    margin-top: 80px;
+    color: blueviolet;
+}
+
+.first {
+    border-left: 8px solid orangered;
+
+    /* padding: 5px; */
+}
+
+.stay {
+    margin-left: 15px;
+    font-size: 50px;
+}
+
+.mission {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.explore {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.mission23 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.missionvdiv {
+    display: flex;
+
+}
+
+.Mission {
+    background-color: blueviolet;
+    width: 33%;
+    padding: 2px;
+    margin-left: 5px;
+    border-radius: 10px;
+
+}
+
+.Vission {
+    background-color: cornflowerblue;
+    width: 33%;
+    padding: 2px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.Goal {
+    background-color: darkslategrey;
+    width: 33%;
+    padding: 2px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.sec-3 {
+    margin-top: 50px;
+}
+
+.coding {
+    display: flex;
+}
+
+.cwomen {
+    width: 50%;
+}
+
+.develop {
+    width: 50%;
+}
+
+.dev-dream {
+    font-size: 50px;
+    /* margin-top: 0px; */
+}
+
+.sec-4 {
+    margin-top: 100px;
+}
+
+.gcommunity {
+    display: flex;
+}
+
+.gtex {
+    width: 50%;
+}
+
+.gimg {
+    width: 50%;
+}
+
+.kno-us {
+
+    font-size: 50px;
+    margin-top: 50px;
+
+}
+
+footer {
+    margin-top: 200px;
+    background-color: black;
+    /* color: white; */
+    text-align: center;
+}
+
+.mft {
+    color: orangered;
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+
+.ftex {
+    color: white;
+}
